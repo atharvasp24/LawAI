@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "LawAI",
+    "slug": "LawAI",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "lawai",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0047AB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lawai.com.lawai",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.lawai.com.lawai",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9189eb67-17e5-455c-b6fa-d4d3ae67a815"
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
